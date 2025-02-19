@@ -2,6 +2,7 @@
 #include <GL/glew.h> // Include GLEW first
 #include <GLFW/glfw3.h> // Then include GLFW (which includes OpenGL headers)
 #include <iostream>
+#include "Triangle.h"
 
 int main() {
     if (!glfwInit()) {
@@ -38,6 +39,8 @@ int main() {
     GLuint vertexBuffer;
     glGenBuffers(1, &vertexBuffer);
     std::cout << "Vertex buffer ID: " << vertexBuffer << std::endl;
+///TRIANGLE
+setupTriangle();
 
     // Main loop
     while (!glfwWindowShouldClose(window)) {
@@ -46,7 +49,7 @@ int main() {
         // Render (clear screen with a color)
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
-
+renderTriangle();
         glfwSwapBuffers(window); // Swap buffers
     }
 

@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/glfw_project.dir/link.d CMakeFiles/glfw_project.dir/src/main.cpp.o -o glfw_project  /usr/lib/libglfw.so.3.4 /usr/lib/libGL.so /usr/lib/libGLEW.so
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/glfw_project.dir/link.d CMakeFiles/glfw_project.dir/src/main.cpp.o CMakeFiles/glfw_project.dir/src/Triangle.cpp.o -o glfw_project  /usr/lib/libglfw.so.3.4 /usr/lib/libGL.so /usr/lib/libGLEW.so

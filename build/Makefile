@@ -129,6 +129,30 @@ glfw_project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/build
 .PHONY : glfw_project/fast
 
+src/Triangle.o: src/Triangle.cpp.o
+.PHONY : src/Triangle.o
+
+# target to build an object file
+src/Triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/Triangle.cpp.o
+.PHONY : src/Triangle.cpp.o
+
+src/Triangle.i: src/Triangle.cpp.i
+.PHONY : src/Triangle.i
+
+# target to preprocess a source file
+src/Triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/Triangle.cpp.i
+.PHONY : src/Triangle.cpp.i
+
+src/Triangle.s: src/Triangle.cpp.s
+.PHONY : src/Triangle.s
+
+# target to generate assembly for a file
+src/Triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/Triangle.cpp.s
+.PHONY : src/Triangle.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... glfw_project"
+	@echo "... src/Triangle.o"
+	@echo "... src/Triangle.i"
+	@echo "... src/Triangle.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

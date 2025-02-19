@@ -13,7 +13,8 @@ include_directories(include)
 include_directories(/usr/include)
 
 # Source files
-add_executable(glfw_project src/main.cpp)
+#add_executable(glfw_project src/main.cpp)
+add_executable(glfw_project src/main.cpp src/Triangle.cpp)
 
 # Link libraries
 target_link_libraries(glfw_project glfw OpenGL::GL GLEW::GLEW)
