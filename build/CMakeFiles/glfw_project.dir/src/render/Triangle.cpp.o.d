@@ -1,6 +1,7 @@
-CMakeFiles/glfw_project.dir/src/Triangle.cpp.o: \
- /home/maximo/glfw_project/src/Triangle.cpp /usr/include/stdc-predef.h \
- /home/maximo/glfw_project/src/Triangle.h /usr/include/GL/glew.h \
+CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o: \
+ /home/maximo/glfw_project/src/render/Triangle.cpp \
+ /usr/include/stdc-predef.h \
+ /home/maximo/glfw_project/src/render/Triangle.h /usr/include/GL/glew.h \
  /usr/include/c++/14.2.1/cstddef \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/maximo/glfw_project/src/Triangle.cpp" "CMakeFiles/glfw_project.dir/src/Triangle.cpp.o" "gcc" "CMakeFiles/glfw_project.dir/src/Triangle.cpp.o.d"
-  "/home/maximo/glfw_project/src/main.cpp" "CMakeFiles/glfw_project.dir/src/main.cpp.o" "gcc" "CMakeFiles/glfw_project.dir/src/main.cpp.o.d"
+  "/home/maximo/glfw_project/src/Main.cpp" "CMakeFiles/glfw_project.dir/src/Main.cpp.o" "gcc" "CMakeFiles/glfw_project.dir/src/Main.cpp.o.d"
+  "/home/maximo/glfw_project/src/render/Triangle.cpp" "CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o" "gcc" "CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o.d"
   "" "glfw_project" "gcc" "CMakeFiles/glfw_project.dir/link.d"
   )
 

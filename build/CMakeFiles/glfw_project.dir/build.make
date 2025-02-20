@@ -72,44 +72,44 @@ include CMakeFiles/glfw_project.dir/flags.make
 CMakeFiles/glfw_project.dir/codegen:
 .PHONY : CMakeFiles/glfw_project.dir/codegen
 
-CMakeFiles/glfw_project.dir/src/main.cpp.o: CMakeFiles/glfw_project.dir/flags.make
-CMakeFiles/glfw_project.dir/src/main.cpp.o: /home/maximo/glfw_project/src/main.cpp
-CMakeFiles/glfw_project.dir/src/main.cpp.o: CMakeFiles/glfw_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/maximo/glfw_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/glfw_project.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glfw_project.dir/src/main.cpp.o -MF CMakeFiles/glfw_project.dir/src/main.cpp.o.d -o CMakeFiles/glfw_project.dir/src/main.cpp.o -c /home/maximo/glfw_project/src/main.cpp
+CMakeFiles/glfw_project.dir/src/Main.cpp.o: CMakeFiles/glfw_project.dir/flags.make
+CMakeFiles/glfw_project.dir/src/Main.cpp.o: /home/maximo/glfw_project/src/Main.cpp
+CMakeFiles/glfw_project.dir/src/Main.cpp.o: CMakeFiles/glfw_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/maximo/glfw_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/glfw_project.dir/src/Main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glfw_project.dir/src/Main.cpp.o -MF CMakeFiles/glfw_project.dir/src/Main.cpp.o.d -o CMakeFiles/glfw_project.dir/src/Main.cpp.o -c /home/maximo/glfw_project/src/Main.cpp
 
-CMakeFiles/glfw_project.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glfw_project.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maximo/glfw_project/src/main.cpp > CMakeFiles/glfw_project.dir/src/main.cpp.i
+CMakeFiles/glfw_project.dir/src/Main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glfw_project.dir/src/Main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maximo/glfw_project/src/Main.cpp > CMakeFiles/glfw_project.dir/src/Main.cpp.i
 
-CMakeFiles/glfw_project.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glfw_project.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maximo/glfw_project/src/main.cpp -o CMakeFiles/glfw_project.dir/src/main.cpp.s
+CMakeFiles/glfw_project.dir/src/Main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glfw_project.dir/src/Main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maximo/glfw_project/src/Main.cpp -o CMakeFiles/glfw_project.dir/src/Main.cpp.s
 
-CMakeFiles/glfw_project.dir/src/Triangle.cpp.o: CMakeFiles/glfw_project.dir/flags.make
-CMakeFiles/glfw_project.dir/src/Triangle.cpp.o: /home/maximo/glfw_project/src/Triangle.cpp
-CMakeFiles/glfw_project.dir/src/Triangle.cpp.o: CMakeFiles/glfw_project.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/maximo/glfw_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/glfw_project.dir/src/Triangle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glfw_project.dir/src/Triangle.cpp.o -MF CMakeFiles/glfw_project.dir/src/Triangle.cpp.o.d -o CMakeFiles/glfw_project.dir/src/Triangle.cpp.o -c /home/maximo/glfw_project/src/Triangle.cpp
+CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o: CMakeFiles/glfw_project.dir/flags.make
+CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o: /home/maximo/glfw_project/src/render/Triangle.cpp
+CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o: CMakeFiles/glfw_project.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/maximo/glfw_project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o -MF CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o.d -o CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o -c /home/maximo/glfw_project/src/render/Triangle.cpp
 
-CMakeFiles/glfw_project.dir/src/Triangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glfw_project.dir/src/Triangle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maximo/glfw_project/src/Triangle.cpp > CMakeFiles/glfw_project.dir/src/Triangle.cpp.i
+CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maximo/glfw_project/src/render/Triangle.cpp > CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.i
 
-CMakeFiles/glfw_project.dir/src/Triangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glfw_project.dir/src/Triangle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maximo/glfw_project/src/Triangle.cpp -o CMakeFiles/glfw_project.dir/src/Triangle.cpp.s
+CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maximo/glfw_project/src/render/Triangle.cpp -o CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.s
 
 # Object files for target glfw_project
 glfw_project_OBJECTS = \
-"CMakeFiles/glfw_project.dir/src/main.cpp.o" \
-"CMakeFiles/glfw_project.dir/src/Triangle.cpp.o"
+"CMakeFiles/glfw_project.dir/src/Main.cpp.o" \
+"CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o"
 
 # External object files for target glfw_project
 glfw_project_EXTERNAL_OBJECTS =
 
-glfw_project: CMakeFiles/glfw_project.dir/src/main.cpp.o
-glfw_project: CMakeFiles/glfw_project.dir/src/Triangle.cpp.o
+glfw_project: CMakeFiles/glfw_project.dir/src/Main.cpp.o
+glfw_project: CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o
 glfw_project: CMakeFiles/glfw_project.dir/build.make
 glfw_project: CMakeFiles/glfw_project.dir/compiler_depend.ts
 glfw_project: /usr/lib/libglfw.so.3.4

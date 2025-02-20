@@ -129,53 +129,53 @@ glfw_project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/build
 .PHONY : glfw_project/fast
 
-src/Triangle.o: src/Triangle.cpp.o
-.PHONY : src/Triangle.o
+src/Main.o: src/Main.cpp.o
+.PHONY : src/Main.o
 
 # target to build an object file
-src/Triangle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/Triangle.cpp.o
-.PHONY : src/Triangle.cpp.o
+src/Main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/Main.cpp.o
+.PHONY : src/Main.cpp.o
 
-src/Triangle.i: src/Triangle.cpp.i
-.PHONY : src/Triangle.i
+src/Main.i: src/Main.cpp.i
+.PHONY : src/Main.i
 
 # target to preprocess a source file
-src/Triangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/Triangle.cpp.i
-.PHONY : src/Triangle.cpp.i
+src/Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/Main.cpp.i
+.PHONY : src/Main.cpp.i
 
-src/Triangle.s: src/Triangle.cpp.s
-.PHONY : src/Triangle.s
+src/Main.s: src/Main.cpp.s
+.PHONY : src/Main.s
 
 # target to generate assembly for a file
-src/Triangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/Triangle.cpp.s
-.PHONY : src/Triangle.cpp.s
+src/Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/Main.cpp.s
+.PHONY : src/Main.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/render/Triangle.o: src/render/Triangle.cpp.o
+.PHONY : src/render/Triangle.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/render/Triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o
+.PHONY : src/render/Triangle.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/render/Triangle.i: src/render/Triangle.cpp.i
+.PHONY : src/render/Triangle.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/render/Triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.i
+.PHONY : src/render/Triangle.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/render/Triangle.s: src/render/Triangle.cpp.s
+.PHONY : src/render/Triangle.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/render/Triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.s
+.PHONY : src/render/Triangle.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... glfw_project"
-	@echo "... src/Triangle.o"
-	@echo "... src/Triangle.i"
-	@echo "... src/Triangle.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/Main.o"
+	@echo "... src/Main.i"
+	@echo "... src/Main.s"
+	@echo "... src/render/Triangle.o"
+	@echo "... src/render/Triangle.i"
+	@echo "... src/render/Triangle.s"
 .PHONY : help
 
 
