@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/maximo/glfw_project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maximo/glfw_project/build
+CMAKE_BINARY_DIR = /home/maximo/glfw_project/Build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maximo/glfw_project/build/CMakeFiles /home/maximo/glfw_project/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maximo/glfw_project/Build/CMakeFiles /home/maximo/glfw_project/Build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maximo/glfw_project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/maximo/glfw_project/Build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,53 +129,29 @@ glfw_project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/build
 .PHONY : glfw_project/fast
 
-src/Main.o: src/Main.cpp.o
-.PHONY : src/Main.o
+Source/Main.o: Source/Main.cpp.o
+.PHONY : Source/Main.o
 
 # target to build an object file
-src/Main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/Main.cpp.o
-.PHONY : src/Main.cpp.o
+Source/Main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/Source/Main.cpp.o
+.PHONY : Source/Main.cpp.o
 
-src/Main.i: src/Main.cpp.i
-.PHONY : src/Main.i
-
-# target to preprocess a source file
-src/Main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/Main.cpp.i
-.PHONY : src/Main.cpp.i
-
-src/Main.s: src/Main.cpp.s
-.PHONY : src/Main.s
-
-# target to generate assembly for a file
-src/Main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/Main.cpp.s
-.PHONY : src/Main.cpp.s
-
-src/render/Triangle.o: src/render/Triangle.cpp.o
-.PHONY : src/render/Triangle.o
-
-# target to build an object file
-src/render/Triangle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o
-.PHONY : src/render/Triangle.cpp.o
-
-src/render/Triangle.i: src/render/Triangle.cpp.i
-.PHONY : src/render/Triangle.i
+Source/Main.i: Source/Main.cpp.i
+.PHONY : Source/Main.i
 
 # target to preprocess a source file
-src/render/Triangle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.i
-.PHONY : src/render/Triangle.cpp.i
+Source/Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/Source/Main.cpp.i
+.PHONY : Source/Main.cpp.i
 
-src/render/Triangle.s: src/render/Triangle.cpp.s
-.PHONY : src/render/Triangle.s
+Source/Main.s: Source/Main.cpp.s
+.PHONY : Source/Main.s
 
 # target to generate assembly for a file
-src/render/Triangle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.s
-.PHONY : src/render/Triangle.cpp.s
+Source/Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/glfw_project.dir/build.make CMakeFiles/glfw_project.dir/Source/Main.cpp.s
+.PHONY : Source/Main.cpp.s
 
 # Help Target
 help:
@@ -186,12 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... glfw_project"
-	@echo "... src/Main.o"
-	@echo "... src/Main.i"
-	@echo "... src/Main.s"
-	@echo "... src/render/Triangle.o"
-	@echo "... src/render/Triangle.i"
-	@echo "... src/render/Triangle.s"
+	@echo "... Source/Main.o"
+	@echo "... Source/Main.i"
+	@echo "... Source/Main.s"
 .PHONY : help
 
 

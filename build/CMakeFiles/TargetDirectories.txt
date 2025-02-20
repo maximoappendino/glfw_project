@@ -1,3 +1,0 @@
-/home/maximo/glfw_project/build/CMakeFiles/glfw_project.dir
-/home/maximo/glfw_project/build/CMakeFiles/edit_cache.dir
-/home/maximo/glfw_project/build/CMakeFiles/rebuild_cache.dir

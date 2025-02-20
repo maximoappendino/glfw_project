@@ -15,10 +15,7 @@ include_directories(/usr/include)
 # Source files
 #add_executable(glfw_project src/main.cpp)
 add_executable(
-	#src/
-	glfw_project src/Main.cpp
-	#src/render/
-	src/render/Triangle.cpp
+	glfw_project Source/Main.cpp
 )
 
 # Link libraries

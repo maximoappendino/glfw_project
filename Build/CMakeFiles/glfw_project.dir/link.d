@@ -2,8 +2,7 @@ glfw_project: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o \
-  CMakeFiles/glfw_project.dir/src/Main.cpp.o \
-  CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o \
+  CMakeFiles/glfw_project.dir/Source/Main.cpp.o \
   /usr/lib/libglfw.so.3.4 \
   /usr/lib/libGL.so \
   /usr/lib/libGLEW.so \
@@ -55,9 +54,7 @@ glfw_project: \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/crtbeginS.o:
 
-CMakeFiles/glfw_project.dir/src/Main.cpp.o:
-
-CMakeFiles/glfw_project.dir/src/render/Triangle.cpp.o:
+CMakeFiles/glfw_project.dir/Source/Main.cpp.o:
 
 /usr/lib/libglfw.so.3.4:
 
